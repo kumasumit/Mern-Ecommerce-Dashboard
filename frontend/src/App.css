@@ -1,6 +1,17 @@
-/* styles for nav-ul nav li class */
+/* here we are using rem and 1rem = 16px by default unless user changes it */ */
+
+/* styles for Navbar */
+.nav-ul{
+  background-color: skyblue;
+  margin: 0px;
+  padding: 0.3125rem;
+}
 .nav-ul li{
   display:  inline-block;
-  padding: 0.625rem; 
-  /* this is 10px, rem is relative to root here which is 16px by default */
+  padding: 0.625rem;
+}
+.nav-ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.3125rem;
 }
