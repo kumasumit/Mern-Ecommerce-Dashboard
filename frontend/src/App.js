@@ -2,6 +2,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,8 @@ function App() {
           </Routes>
         
       </BrowserRouter>
+      {/* since we wont be doing any routing for footer, hence it will be outside BrowserRouter */}
+      <Footer/>
     </div>
   );
 }
